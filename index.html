@@ -10,36 +10,36 @@
 	<body>
 		<div class="main">
 			<header>
-				<div class="container">
+				<div class="wrapper_main container">
 					<img src="./assets/logo.svg" class="logo" />
-					<ul class="header-link-container">
-						<li>
+					<ul class="ul_main ul_horizontal">
+						<li class="li_main">
 							<span>Решения</span>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
 						</li>
-						<li><span>Тарифы</span></li>
-						<li>
+						<li class="li_main"><span>Тарифы</span></li>
+						<li class="li_main">
 							<span>Помощь</span>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
 						</li>
-						<li>
+						<li class="li_main">
 							<span>Компания</span>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
 						</li>
-						<li><span>Партнерам</span></li>
+						<li class="li_main"><span>Партнерам</span></li>
 					</ul>
 					<img src="./assets/ic_find.svg" class="header-find-icon" />
 					<span class="phone">8(800) 555-91-15</span>
 					<img src="./assets/ic_signin.svg" class="header-signin-icon" />
-					<button class="button-main button-signin">
-						<a href="#" class="button-text">Регистрация</a>
+					<button class="button_main button_signin">
+						<a href="#" class="button__text link">Регистрация</a>
 					</button>
 				</div>
 			</header>
-			<div class="container-sections container">
+			<div class="container_sections wrapper_main">
 				<section id="section-1">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h1>1С: Зарплата и управление персоналом 8</h1>
 							<h2>Цена - от 760 ₽ в месяц*</h2>
 							<p>
@@ -48,21 +48,23 @@
 								других выплат сотрудникам
 							</p>
 						</div>
-						<button class="button-main">
-							<a href="#" class="button-text">Попробовать 14 дней бесплатно</a>
+						<button class="button_main">
+							<a href="#" class="button__text link"
+								>Попробовать 14 дней бесплатно</a
+							>
 						</button>
-						<p class="text-description">*входит в тарифы</p>
+						<p class="text_description">*входит в тарифы</p>
 					</div>
-					<div class="section-image">
+					<div class="section__image">
 						<img src="./assets/img_section_1.svg" />
 					</div>
 				</section>
 				<section id="section-2">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Основные возможности</h2>
-							<div class="section-list section-list_active">
-								<div class="section-list-left">
+							<div class="section__list section__list_active">
+								<div class="section__list_left">
 									<ul>
 										<li>Учёт заработной платы</li>
 										<li>Исчисление налогов и взносов с фонда оплаты труда</li>
@@ -73,7 +75,7 @@
 										</li>
 									</ul>
 								</div>
-								<div class="section-list-right">
+								<div class="section__list_right">
 									<ul>
 										<li>Учет кадров и анализ кадрового состава</li>
 										<li>Автоматизация кадрового делопроизводства</li>
@@ -89,11 +91,11 @@
 					</div>
 				</section>
 				<section id="section-3">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Преимущества аренды 1С в облаке</h2>
 						</div>
-						<div class="section-list">
+						<div class="section__list">
 							<div class="card">
 								<img src="./assets/img_section_3_1.svg" alt="" />
 								<p>Бесплатные консультации по работе в 1С</p>
@@ -118,15 +120,15 @@
 								<img src="./assets/img_section_3_6.svg" alt="" />
 								<div>
 									<p>Попробуйте 1С: ЗУП 8</p>
-									<p class="card-ad">Попробовать бесплатно</p>
+									<p class="card__ad">Попробовать бесплатно</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
 				<section id="section-4">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Кому подойдет 1С: ЗУП 8?</h2>
 							<p>
 								В качестве дополнительного функционала данный программный
@@ -137,43 +139,43 @@
 								учета.
 							</p>
 						</div>
-						<div class="section-selector-block">
-							<div class="container-button">
+						<div class="section__selector-block">
+							<div class="container_button">
 								<button
 									id="selector_btn_1"
 									class="
-										button-selector
-										button-main
-										button-main-transparent
-										button-main-transparent_active
+										button_selector
+										button_main
+										button_main_transparent
+										button_main_transparent_active
 									"
 								>
-									<div class="button-text button-text-dark">Руководителям</div>
+									<div class="button__text button__text_dark">Руководителям</div>
 								</button>
 								<button
 									id="selector_btn_2"
-									class="button-selector button-main button-main-transparent"
+									class="button_selector button_main button_main_transparent"
 								>
-									<div class="button-text button-text-dark">
+									<div class="button__text button__text_dark">
 										Бухгалтерам и отделу кадров
 									</div>
 								</button>
 								<button
 									id="selector_btn_3"
-									class="button-selector button-main button-main-transparent"
+									class="button_selector button_main button_main_transparent"
 								>
-									<div class="button-text button-text-dark">Сотрудникам</div>
+									<div class="button__text button__text_dark">Сотрудникам</div>
 								</button>
 								<button
 									id="selector_btn_4"
-									class="button-selector button-main button-main-transparent"
+									class="button_selector button_main button_main_transparent"
 								>
-									<div class="button-text button-text-dark">HR</div>
+									<div class="button__text button__text_dark">HR</div>
 								</button>
 							</div>
-							<div class="selector-section">
-								<div class="selector-item section-list section-list_active">
-									<div class="section-list-left">
+							<div class="selector_section">
+								<div class="selector__item section__list section__list_active">
+									<div class="section__list_left">
 										<h3>Руководство компании</h3>
 										<ul>
 											<li>Качество персонала</li>
@@ -182,7 +184,7 @@
 											<li>Производительность труда и выполнение KPI</li>
 										</ul>
 									</div>
-									<div class="section-list-right">
+									<div class="section__list_right">
 										<h3>Руководство подразделений</h3>
 										<ul>
 											<li>Квалификация персонала</li>
@@ -192,8 +194,8 @@
 										</ul>
 									</div>
 								</div>
-								<div class="selector-item section-list">
-									<div class="section-list-left">
+								<div class="selector__item section__list">
+									<div class="section__list_left">
 										<h3>Бухгалтерия</h3>
 										<ul>
 											<li>Структура начисления зарплаты</li>
@@ -204,7 +206,7 @@
 											<li>Отклонения от бюджета</li>
 										</ul>
 									</div>
-									<div class="section-list-right">
+									<div class="section__list_right">
 										<h3>Отдел кадров</h3>
 										<ul>
 											<li>Качественный состав работников</li>
@@ -213,15 +215,15 @@
 										</ul>
 									</div>
 								</div>
-								<div class="selector-item section-list">
-									<div class="section-list-left">
+								<div class="selector__item section__list">
+									<div class="section__list_left">
 										<ul>
 											<li>Начисленная зарплата</li>
 											<li>Оставшиеся дни отпуска</li>
 											<li>Заявки на отпуск</li>
 										</ul>
 									</div>
-									<div class="section-list-right">
+									<div class="section__list_right">
 										<ul>
 											<li>Заявки на обучение</li>
 											<li>Отработанное время</li>
@@ -229,8 +231,8 @@
 										</ul>
 									</div>
 								</div>
-								<div class="selector-item section-list">
-									<div class="section-list-left">
+								<div class="selector__item section__list">
+									<div class="section__list_left">
 										<ul>
 											<li>Потребность в кадрах</li>
 											<li>Квалификация персонала</li>
@@ -239,7 +241,7 @@
 											<li>Загрузка сотрудников</li>
 										</ul>
 									</div>
-									<div class="section-list-right">
+									<div class="section__list_right">
 										<ul>
 											<li>Кадровый план</li>
 											<li>Информация о кандидатах</li>
@@ -253,8 +255,8 @@
 					</div>
 				</section>
 				<section id="section-5">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Сравнение функционала версий ПРОФ и КОРП</h2>
 						</div>
 						<div class="table">
@@ -417,30 +419,30 @@
 						</div>
 						<div class="slider-container">
 							<div class="slider-wrapper">
-								<div class="btn-wrapper">
-									<button class="btn btn-prev">
+								<div class="container">
+									<button class="button_slider slider-prev">
 										<img src="./assets/btn_prev.svg" alt="" />
 									</button>
 								</div>
 								<div class="slider-container-datacontainer">
-									<div class="slide-data slide_active">
+									<div class="slide__data slide_active">
 										<img src="./assets/slide_1.png" alt="" />
 									</div>
-									<div class="slide-data">
+									<div class="slide__data">
 										<img src="./assets/slide_2.png" alt="" />
 									</div>
-									<div class="slide-data">
+									<div class="slide__data">
 										<img src="./assets/slide_3.png" alt="" />
 									</div>
-									<div class="slide-data">
+									<div class="slide__data">
 										<img src="./assets/slide_4.png" alt="" />
 									</div>
-									<div class="slide-data">
+									<div class="slide__data">
 										<img src="./assets/slide_5.png" alt="" />
 									</div>
 								</div>
-								<div class="btn-wrapper">
-									<button class="btn btn-next">
+								<div class="container">
+									<button class="button_slider slider-next">
 										<img src="./assets/btn_next.svg" alt="" />
 									</button>
 								</div>
@@ -448,10 +450,7 @@
 
 							<div class="slider-container-indicators">
 								<span
-									class="
-										slider-point
-										slider-point_active
-									"
+									class="slider-point slider-point_active"
 									data-content=""
 									tabindex="0"
 									role="button"
@@ -490,14 +489,14 @@
 					</div>
 				</section>
 				<section id="section-6">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>
 								Цена на 1С: ЗУП 8 онлайн
 								<span style="color: #ff6600">от 760 ₽ в месяц</span>
 							</h2>
-							<div class="container-forms">
-								<div class="field field-name">
+							<div class="container_forms">
+								<div class="field field_name">
 									<input
 										type="text"
 										id="input-name"
@@ -505,7 +504,7 @@
 										placeholder="Имя*"
 									/>
 								</div>
-								<div class="field field-phone">
+								<div class="field field_phone">
 									<ul>
 										<li>RU*</li>
 									</ul>
@@ -516,7 +515,7 @@
 										placeholder="+7"
 									/>
 								</div>
-								<div class="field field-email">
+								<div class="field field_email">
 									<input
 										type="email"
 										id="input-email"
@@ -525,9 +524,9 @@
 									/>
 								</div>
 							</div>
-							<p class="text-description">* Поля обязательные для заполнения</p>
-							<button class="button-main">
-								<a href="#" class="button-text"
+							<p class="text_description">* Поля обязательные для заполнения</p>
+							<button class="button_main">
+								<a href="#" class="button__text link"
 									>Попробовать 14 дней бесплатно</a
 								>
 							</button>
@@ -535,11 +534,11 @@
 					</div>
 				</section>
 				<section id="section-7">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>С какими отчетами Вы можете работать?</h2>
-							<div class="section-list section-list_active">
-								<div class="section-list-max">
+							<div class="section__list section__list_active">
+								<div class="section__list_max">
 									<ul>
 										<li>
 											Формирование списков кандидатов на работу, работников
@@ -568,103 +567,103 @@
 					</div>
 				</section>
 				<section id="section-8">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Почему пользователи выбирают Scloud?</h2>
 						</div>
 						<div class="section-wrapper">
 							<div class="section-grid-wrapper">
-								<div class="section-grid">
-									<div class="section-grid_item">
-										<div class="section-grid_item_main">24/7</div>
-										<div class="section-grid_item_info">
+								<div class="section__grid">
+									<div class="section__grid_item">
+										<div class="section__grid_item_main">24/7</div>
+										<div class="section__grid_item_info">
 											круглосуточная техническая поддержка клиентов
 										</div>
 									</div>
-									<div class="section-grid_item">
-										<div class="section-grid_item_main">> 32 000</div>
-										<div class="section-grid_item_info">
+									<div class="section__grid_item">
+										<div class="section__grid_item_main">> 32 000</div>
+										<div class="section__grid_item_info">
 											пользователей доверяют свою 1С нашему сервису
 										</div>
 									</div>
-									<div class="section-grid_item">
-										<div class="section-grid_item_main">8 лет</div>
-										<div class="section-grid_item_info">
+									<div class="section__grid_item">
+										<div class="section__grid_item_main">8 лет</div>
+										<div class="section__grid_item_info">
 											предоставления доступа к 1С онлайн в России
 										</div>
 									</div>
-									<div class="section-grid_item">
-										<div class="section-grid_item_main">> 200</div>
-										<div class="section-grid_item_info">
+									<div class="section__grid_item">
+										<div class="section__grid_item_main">> 200</div>
+										<div class="section__grid_item_info">
 											высококвалифицированных специалистов в штате
 										</div>
 									</div>
 								</div>
-								<a href="" class="link">Узнать больше о нас</a>
+								<a href="" class="link_contrast">Узнать больше о нас</a>
 							</div>
-							<div class="section-image">
+							<div class="section__image">
 								<img src="./assets/img_section_8.svg" />
 							</div>
 						</div>
 					</div>
 				</section>
 				<section id="section-9">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Возможно вас заинтересует</h2>
-							<div class="container-articles">
+							<div class="container_articles">
 								<div class="article">
-									<div class="article-top">
-										<div class="article-top_img">
+									<div class="article__top">
+										<div class="article__top__img">
 											<img src="./assets/img_section_9_1.svg" alt="" />
 										</div>
-										<div class="article-top_title">
+										<div class="article__top__title">
 											1С: Бухгалтерия ПРОФ/КОРП
 										</div>
 									</div>
-									<div class="article-main">
+									<div class="article__main">
 										Конфигурация разработана в соответствии с нормами
 										действующего законодательства. Учет хозяйственной
 										деятельности, заработной платы, сдача отчетности в
 										электронном виде.
 									</div>
-									<div class="article-bottom">
-										<a href="" class="link">Подробнее</a>
+									<div class="article__bottom">
+										<a href="" class="link_contrast">Подробнее</a>
 									</div>
 								</div>
 								<div class="article">
-									<div class="article-top">
-										<div class="article-top_img">
+									<div class="article__top">
+										<div class="article__top__img">
 											<img src="./assets/img_section_9_2.svg" alt="" />
 										</div>
-										<div class="article-top_title">
+										<div class="article__top__title">
 											Информационно- справочная система 1С
 										</div>
 									</div>
-									<div class="article-main">
+									<div class="article__main">
 										В системе представлены новости, комментарии и консультации
 										по вопросам бухгалтерского, налогового и кадрового учета,
 										рекомендации по налогообложению, пошаговые инструкции по их
 										отражению в программе.
 									</div>
-									<div class="article-bottom">
-										<a href="" class="link">Подробнее</a>
+									<div class="article__bottom">
+										<a href="" class="link_contrast">Подробнее</a>
 									</div>
 								</div>
 								<div class="article">
-									<div class="article-top">
-										<div class="article-top_img">
+									<div class="article__top">
+										<div class="article__top__img">
 											<img src="./assets/img_section_9_3.svg" alt="" />
 										</div>
-										<div class="article-top_title">1С: Отчетность</div>
+										<div class="article__top__title">1С: Отчетность</div>
 									</div>
-									<div class="article-main">
+									<div class="article__main">
 										Позволяет сдавать отчётность со своего ПК прямо из 1С в
 										контролирующие органы: ФНС, ПФР, ФСС, Федеральная служба
 										государственной статистики, Росалкогольрегулирование.
 									</div>
-									<div class="article-bottom">
-										<a href="" class="link">Подробнее</a>
+									<div class="article__bottom">
+										<a href="" class="link_contrast">Подробнее</a>
 									</div>
 								</div>
 							</div>
@@ -672,11 +671,11 @@
 					</div>
 				</section>
 				<section id="section-10">
-					<div class="section-info">
-						<div class="section-text">
+					<div class="section__info">
+						<div class="section__text">
 							<h2>Начните пользоваться 1С прямо сейчас</h2>
-							<div class="container-forms">
-								<div class="field field-name">
+							<div class="container_forms">
+								<div class="field field_name">
 									<input
 										type="text"
 										id="input-name"
@@ -684,7 +683,7 @@
 										placeholder="Имя*"
 									/>
 								</div>
-								<div class="field field-phone">
+								<div class="field field_phone">
 									<ul>
 										<li>RU*</li>
 									</ul>
@@ -695,7 +694,7 @@
 										placeholder="+7"
 									/>
 								</div>
-								<div class="field field-email">
+								<div class="field field_email">
 									<input
 										type="email"
 										id="input-email"
@@ -704,9 +703,9 @@
 									/>
 								</div>
 							</div>
-							<p class="text-description">* Поля обязательные для заполнения</p>
-							<button class="button-main">
-								<a href="#" class="button-text"
+							<p class="text_description">* Поля обязательные для заполнения</p>
+							<button class="button_main">
+								<a href="#" class="button__text link"
 									>Попробовать 14 дней бесплатно</a
 								>
 							</button>
@@ -715,138 +714,136 @@
 				</section>
 			</div>
 			<footer>
-				<div class="footer-wrapper">
-					<div class="footer-main">
-						<div class="footer-links-wrapper">
-							<div class="article footer-link">
-								<div class="article-top">
-									<div class="article-top_title">Типовые решения</div>
-								</div>
-								<div class="article-main">
-									<ul>
-										<li>1C:Бухгалтерия ПРОФ/КОРП</li>
-										<li>1C:Зарплата и управление персоналом ПРОф/КОРП</li>
-										<li>1C:Комплексная автоматизация</li>
-										<li>1C:Управление нашей фирмой</li>
-									</ul>
-								</div>
-								<div class="article-bottom">
-									<a href="" class="link">Показать больше</a>
-								</div>
+				<div class="footer__info wrapper_main">
+					<div class="wrapper_main container">
+						<div class="article article_footer">
+							<div class="article__top">
+								<div class="article__top__title">Типовые решения</div>
 							</div>
-							<div class="article footer-link">
-								<div class="article-top">
-									<div class="article-top_title">Отраслевые решения</div>
-								</div>
-								<div class="article-main">
-									<ul>
-										<li>1C:CRM ПРОФ</li>
-										<li>1C:Учет в управляющих компаниях ЖКХ, ТСЖ, ЖСК</li>
-										<li>1C:Автосервис</li>
-										<li>1C:Салон Красоты</li>
-									</ul>
-								</div>
-								<div class="article-bottom">
-									<a href="" class="link">Показать больше</a>
-								</div>
+							<div class="article__main">
+								<ul class="ul_main">
+									<li>1C:Бухгалтерия ПРОФ/КОРП</li>
+									<li>1C:Зарплата и управление персоналом ПРОФ/КОРП</li>
+									<li>1C:Комплексная автоматизация</li>
+									<li>1C:Управление нашей фирмой</li>
+								</ul>
 							</div>
-							<div class="article footer-link">
-								<div class="article-top">
-									<div class="article-top_title">Сервисы</div>
-								</div>
-								<div class="article-main">
-									<ul>
-										<li>1C:Контрагент</li>
-										<li>1C:СтартЭДО</li>
-										<li>1C:Отчетность</li>
-										<li>1C:Контрагент</li>
-										<li>1CПАРК Риски</li>
-									</ul>
-								</div>
+							<div class="article__bottom">
+								<a href="" class="link_contrast link">Показать больше</a>
 							</div>
-							<div class="article footer-link">
-								<div class="article-top">
-									<div class="article-top_title">Доп. возможности</div>
+						</div>
+						<div class="article article_footer">
+							<div class="article__top">
+								<div class="article__top__title">Отраслевые решения</div>
+							</div>
+							<div class="article__main">
+								<ul class="ul_main">
+									<li>1C:CRM ПРОФ</li>
+									<li>1C:Учет в управляющих компаниях ЖКХ, ТСЖ, ЖСК</li>
+									<li>1C:Автосервис</li>
+									<li>1C:Салон Красоты</li>
+								</ul>
+							</div>
+							<div class="article__bottom">
+								<a href="" class="link_contrast link">Показать больше</a>
+							</div>
+						</div>
+						<div class="article article_footer">
+							<div class="article__top">
+								<div class="article__top__title">Сервисы</div>
+							</div>
+							<div class="article__main">
+								<ul class="ul_main">
+									<li>1C:Контрагент</li>
+									<li>1C:СтартЭДО</li>
+									<li>1C:Отчетность</li>
+									<li>1C:Контрагент</li>
+									<li>1CПАРК Риски</li>
+								</ul>
+							</div>
+						</div>
+						<div class="article article_footer">
+							<div class="article__top">
+								<div class="article__top__title">Доп. возможности</div>
+							</div>
+							<div class="article__main">
+								<ul class="ul_main">
+									<li>ФГИС Меркурий</li>
+									<li>ЕГАИС</li>
+									<li>Клиент-банк</li>
+									<li>Директ-банк</li>
+									<li>Торговое оборудование</li>
+								</ul>
+							</div>
+							<div class="article__bottom">
+								<a href="" class="link_contrast link">Показать больше</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer-contacts-wrapper">
+						<div class="footer-contacts">
+							<img src="./assets/logo.svg" />
+							<div class="footer-contacts__info">
+								<div class="footer-contacts__info__phone">
+									8 800 555-91-15 | +7 (495) 786-59-15
 								</div>
-								<div class="article-main">
-									<ul>
-										<li>ФГИС Меркурий</li>
-										<li>ЕГАИС</li>
-										<li>Клиент-банк</li>
-										<li>Директ-банк</li>
-										<li>Торговое оборудование</li>
+								<div class="footer-contacts__info__address">
+									<ul class="ul_main">
+										<li>111024, г. Москва, ул. Авиамоторная, 69</li>
+										<li>300028, г. Тула, ул. Болдина, 98</li>
 									</ul>
-								</div>
-								<div class="article-bottom">
-									<a href="" class="link">Показать больше</a>
 								</div>
 							</div>
 						</div>
-						<div class="footer-contacts-wrapper">
-							<div class="footer-contacts">
-								<img src="./assets/logo.svg" />
-								<div class="footer-contacts__info">
-									<div class="footer-contacts__info__phone">
-										8 800 555-91-15 | +7 (495) 786-59-15
-									</div>
-									<div class="footer-contacts__info__address">
-										<ul class="ul_main">
-											<li>111024, г. Москва, ул. Авиамоторная, 69</li>
-											<li>300028, г. Тула, ул. Болдина, 98</li>
-										</ul>
-									</div>
-								</div>
+						<div class="footer__container_links">
+							<div class="footer-links__websites">
+								<ul class="ul_main ul_icons">
+									<li class="li_horizontal li_icons">
+										<a href="https://www.instagram.com/?hl=ru"
+											><img src="./assets/logo_inst.svg"
+										/></a>
+									</li>
+									<li class="li_horizontal li_icons">
+										<a href="https://www.facebook.com/"
+											><img src="./assets/logo_fb.svg"
+										/></a>
+									</li>
+									<li class="li_horizontal li_icons">
+										<a href="https://www.vk.com/"
+											><img src="./assets/logo_vk.svg"
+										/></a>
+									</li>
+									<li class="li_horizontal li_icons">
+										<a href="https://www.ok.ru/"
+											><img src="./assets/logo_ok.svg"
+										/></a>
+									</li>
+									<li class="li_horizontal li_icons">
+										<a href="https://www.youtube.com/"
+											><img src="./assets/logo_youtube.svg"
+										/></a>
+									</li>
+								</ul>
 							</div>
-							<div class="footer-links">
-								<div class="footer-links__websites">
-									<ul class="ul_logos">
-										<li>
-											<a href="https://www.instagram.com/?hl=ru"
-												><img src="./assets/logo_inst.svg"
-											/></a>
-										</li>
-										<li>
-											<a href="https://www.facebook.com/"
-												><img src="./assets/logo_fb.svg"
-											/></a>
-										</li>
-										<li>
-											<a href="https://www.vk.com/"
-												><img src="./assets/logo_vk.svg"
-											/></a>
-										</li>
-										<li>
-											<a href="https://www.ok.ru/"
-												><img src="./assets/logo_ok.svg"
-											/></a>
-										</li>
-										<li>
-											<a href="https://www.youtube.com/"
-												><img src="./assets/logo_youtube.svg"
-											/></a>
-										</li>
-									</ul>
-								</div>
-								<div class="footer-links__apps">
-									<ul class="ul_logos">
-										<li>
-											<a href=""><img src="./assets/badge_appstore.svg" /></a>
-										</li>
-										<li>
-											<a href=""><img src="./assets/badge_googleplay.svg" /></a>
-										</li>
-									</ul>
-								</div>
+							<div class="footer__links__apps">
+								<ul class="ul_main ul_icons">
+									<li class="li_horizontal li_icons">
+										<a href=""><img src="./assets/badge_appstore.svg" /></a>
+									</li>
+									<li class="li_horizontal li_icons">
+										<a href=""><img src="./assets/badge_googleplay.svg" /></a>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="footer-bottom">
-					<div class="footer-bottom-wrapper">
-						<div class="footer-bottom-politics">
+				<div class="footer__bottom">
+					<div class="wrapper_main container">
+						<div class="footer__bottom__politics">
 							Оферта | Политика конфиденциальности
 						</div>
-						<div class="footer-bottom-copyright">
+						<div class="footer__bottom__copyright">
 							© 2019 scloud.ru ООО "СервисКлауд"
 						</div>
 					</div>

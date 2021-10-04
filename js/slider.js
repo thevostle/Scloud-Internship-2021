@@ -1,12 +1,12 @@
-const btn_prev = document.querySelector(".btn-prev");
-const btn_next = document.querySelector(".btn-next");
+const btn_prev = document.querySelector(".slider-prev");
+const btn_next = document.querySelector(".slider-next");
 
-const slides = document.getElementsByClassName("slide-data");
+const slides = document.getElementsByClassName("slide__data");
 
 let idx = 0;
 
 function changeSlide (event) {
-    let isForward = event.currentTarget.classList[1] == "btn-next";
+    let isForward = event.currentTarget.classList[1] == "slider-next";
     if (isForward) idx++;
     else idx--;
 

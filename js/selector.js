@@ -1,5 +1,5 @@
-const select = document.getElementsByClassName("selector-item");
-const btns = document.querySelectorAll(".button-selector");
+const select = document.getElementsByClassName("selector__item");
+const btns = document.querySelectorAll(".button_selector");
 
 function selector (event) {
     let idx = event.currentTarget.id[13]-1; // 13 - индекс номера в id вызывающей кнопки
@@ -10,9 +10,9 @@ function selector (event) {
     select[idx].style.display = "flex";
 
     for (let btn of btns)
-        btn.classList.remove('button-main-transparent_active');
+        btn.classList.remove('button_main_transparent_active');
 
-    btns[idx].classList.add("button-main-transparent_active");
+    btns[idx].classList.add("button_main_transparent_active");
 }
 
 for (let btn of btns)
