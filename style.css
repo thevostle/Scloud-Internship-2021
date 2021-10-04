@@ -105,6 +105,8 @@ html {
 }
 
 .button_empty {
+	background: #ffffff;
+	cursor: pointer;
 	appearance: none;
 	border: 0;
 }
