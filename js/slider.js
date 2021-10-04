@@ -6,7 +6,7 @@ const slides = document.getElementsByClassName("slide__data");
 let idx = 0;
 
 function changeSlide (event) {
-    let isForward = event.currentTarget.classList[1] == "slider-next";
+    let isForward = event.currentTarget.classList[2] == "slider-next";
     if (isForward) idx++;
     else idx--;
 

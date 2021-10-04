@@ -9,46 +9,46 @@
 	</head>
 	<body>
 		<div class="main">
-			<header>
+			<header class="header_main">
 				<div class="wrapper_main container">
 					<img src="./assets/logo.svg" class="logo" />
 					<ul class="ul_main ul_horizontal">
 						<li class="li_main">
-							<span>Решения</span>
+							<a href="" class="link">Решения</a>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
 						</li>
-						<li class="li_main"><span>Тарифы</span></li>
+						<li class="li_main"><a href="" class="link">Тарифы</a></li>
 						<li class="li_main">
-							<span>Помощь</span>
+							<a href="" class="link">Помощь</a>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
 						</li>
 						<li class="li_main">
-							<span>Компания</span>
+							<a href="" class="link">Компания</a>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
 						</li>
-						<li class="li_main"><span>Партнерам</span></li>
+						<li class="li_main"><a href="" class="link">Партнерам</a></li>
 					</ul>
 					<img src="./assets/ic_find.svg" class="header-find-icon" />
 					<span class="phone">8(800) 555-91-15</span>
-					<img src="./assets/ic_signin.svg" class="header-signin-icon" />
-					<button class="button_main button_signin">
+					<a href="" class="link"><img src="./assets/ic_signin.svg" class="header-signin-icon" /></a>
+					<button class="button_empty button_main button_signin">
 						<a href="#" class="button__text link">Регистрация</a>
 					</button>
 				</div>
 			</header>
 			<div class="container_sections wrapper_main">
-				<section id="section-1">
+				<section id="section-1" class="container section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h1>1С: Зарплата и управление персоналом 8</h1>
-							<h2>Цена - от 760 ₽ в месяц*</h2>
+							<h1 class="text_base">1С: Зарплата и управление персоналом 8</h1>
+							<h2 class="text_base text_orange">Цена - от 760 ₽ в месяц*</h2>
 							<p>
 								Программа позволяет эффективно организовать комплексный учет
 								кадров, а также автоматизировать процесс подсчета зарплаты и
 								других выплат сотрудникам
 							</p>
 						</div>
-						<button class="button_main">
+						<button class="button_empty button_main">
 							<a href="#" class="button__text link"
 								>Попробовать 14 дней бесплатно</a
 							>
@@ -59,13 +59,13 @@
 						<img src="./assets/img_section_1.svg" />
 					</div>
 				</section>
-				<section id="section-2">
+				<section id="section-2" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Основные возможности</h2>
-							<div class="section__list section__list_active">
+							<h2 class="text_base">Основные возможности</h2>
+							<div class="wrapper section__list section__list_active">
 								<div class="section__list_left">
-									<ul>
+									<ul class="list_round-apply">
 										<li>Учёт заработной платы</li>
 										<li>Исчисление налогов и взносов с фонда оплаты труда</li>
 										<li>Управление компетенциями и аттестация работников</li>
@@ -76,7 +76,7 @@
 									</ul>
 								</div>
 								<div class="section__list_right">
-									<ul>
+									<ul class="list_round-apply">
 										<li>Учет кадров и анализ кадрового состава</li>
 										<li>Автоматизация кадрового делопроизводства</li>
 										<li>Возможность сдачи отчетов по каждому из сотрудников</li>
@@ -90,12 +90,12 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-3">
+				<section id="section-3" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Преимущества аренды 1С в облаке</h2>
+							<h2 class="text_base">Преимущества аренды 1С в облаке</h2>
 						</div>
-						<div class="section__list">
+						<div class="section__list section__list_3x2">
 							<div class="card">
 								<img src="./assets/img_section_3_1.svg" alt="" />
 								<p>Бесплатные консультации по работе в 1С</p>
@@ -126,10 +126,10 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-4">
+				<section id="section-4" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Кому подойдет 1С: ЗУП 8?</h2>
+							<h2 class="text_base">Кому подойдет 1С: ЗУП 8?</h2>
 							<p>
 								В качестве дополнительного функционала данный программный
 								продукт позволяет довести до автоматизма большинство процессов
@@ -145,16 +145,26 @@
 									id="selector_btn_1"
 									class="
 										button_selector
+										button_horizontal
+										button_empty
 										button_main
 										button_main_transparent
 										button_main_transparent_active
 									"
 								>
-									<div class="button__text button__text_dark">Руководителям</div>
+									<div class="button__text button__text_dark">
+										Руководителям
+									</div>
 								</button>
 								<button
 									id="selector_btn_2"
-									class="button_selector button_main button_main_transparent"
+									class="
+										button_selector
+										button_horizontal
+										button_empty
+										button_main
+										button_main_transparent
+									"
 								>
 									<div class="button__text button__text_dark">
 										Бухгалтерам и отделу кадров
@@ -162,22 +172,34 @@
 								</button>
 								<button
 									id="selector_btn_3"
-									class="button_selector button_main button_main_transparent"
+									class="
+										button_selector
+										button_horizontal
+										button_empty
+										button_main
+										button_main_transparent
+									"
 								>
 									<div class="button__text button__text_dark">Сотрудникам</div>
 								</button>
 								<button
 									id="selector_btn_4"
-									class="button_selector button_main button_main_transparent"
+									class="
+										button_selector
+										button_horizontal
+										button_empty
+										button_main
+										button_main_transparent
+									"
 								>
 									<div class="button__text button__text_dark">HR</div>
 								</button>
 							</div>
-							<div class="selector_section">
+							<div class="selector-section">
 								<div class="selector__item section__list section__list_active">
 									<div class="section__list_left">
-										<h3>Руководство компании</h3>
-										<ul>
+										<h3 class="text_title">Руководство компании</h3>
+										<ul class="list_selector list_apply">
 											<li>Качество персонала</li>
 											<li>Эффективность процессов управления персоналом</li>
 											<li>Затраты на персонал</li>
@@ -185,8 +207,8 @@
 										</ul>
 									</div>
 									<div class="section__list_right">
-										<h3>Руководство подразделений</h3>
-										<ul>
+										<h3 class="text_title">Руководство подразделений</h3>
+										<ul class="list_selector list_apply">
 											<li>Квалификация персонала</li>
 											<li>Загрузка сотрудников</li>
 											<li>Эффективность системы мотивации</li>
@@ -196,8 +218,8 @@
 								</div>
 								<div class="selector__item section__list">
 									<div class="section__list_left">
-										<h3>Бухгалтерия</h3>
-										<ul>
+										<h3 class="text_title">Бухгалтерия</h3>
+										<ul class="list_selector list_apply">
 											<li>Структура начисления зарплаты</li>
 											<li>Данные для расчета налогов и выплат в фонды</li>
 											<li>Начисление и выплата зарплаты, налогов</li>
@@ -207,8 +229,8 @@
 										</ul>
 									</div>
 									<div class="section__list_right">
-										<h3>Отдел кадров</h3>
-										<ul>
+										<h3 class="text_title">Отдел кадров</h3>
+										<ul class="list_selector list_apply">
 											<li>Качественный состав работников</li>
 											<li>Данные о сотрудниках</li>
 											<li>Перемещение кадров</li>
@@ -217,14 +239,14 @@
 								</div>
 								<div class="selector__item section__list">
 									<div class="section__list_left">
-										<ul>
+										<ul class="list_selector list_apply">
 											<li>Начисленная зарплата</li>
 											<li>Оставшиеся дни отпуска</li>
 											<li>Заявки на отпуск</li>
 										</ul>
 									</div>
 									<div class="section__list_right">
-										<ul>
+										<ul class="list_selector list_apply">
 											<li>Заявки на обучение</li>
 											<li>Отработанное время</li>
 											<li>Заявки на отпуск</li>
@@ -233,7 +255,7 @@
 								</div>
 								<div class="selector__item section__list">
 									<div class="section__list_left">
-										<ul>
+										<ul class="list_selector list_apply">
 											<li>Потребность в кадрах</li>
 											<li>Квалификация персонала</li>
 											<li>Кадровый резерв</li>
@@ -242,7 +264,7 @@
 										</ul>
 									</div>
 									<div class="section__list_right">
-										<ul>
+										<ul class="list_selector list_apply">
 											<li>Кадровый план</li>
 											<li>Информация о кандидатах</li>
 											<li>Планы обучения</li>
@@ -254,16 +276,16 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-5">
+				<section id="section-5" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Сравнение функционала версий ПРОФ и КОРП</h2>
+							<h2 class="text_base">Сравнение функционала версий ПРОФ и КОРП</h2>
 						</div>
 						<div class="table">
 							<div class="table_row head">
-								<div class="table_row_cell">Возможности</div>
-								<div class="table_row_cell">ПРОФ</div>
-								<div class="table_row_cell">КОРП</div>
+								<div class="table_row_cell text_base text_title">Возможности</div>
+								<div class="table_row_cell text_base text_title">ПРОФ</div>
+								<div class="table_row_cell text_base text_title">КОРП</div>
 							</div>
 							<div class="table_row">
 								<div class="table_row_cell">
@@ -405,7 +427,7 @@
 									<img src="./assets/ic_yes.svg" alt="" />
 								</div>
 							</div>
-							<div class="table_row">
+							<div class="table_row table_row_last">
 								<div class="table_row_cell">
 									Подготовка регламентированной отчетности
 								</div>
@@ -418,9 +440,9 @@
 							</div>
 						</div>
 						<div class="slider-container">
-							<div class="slider-wrapper">
+							<div class="wrapper">
 								<div class="container">
-									<button class="button_slider slider-prev">
+									<button class="button_slider button_empty slider-prev">
 										<img src="./assets/btn_prev.svg" alt="" />
 									</button>
 								</div>
@@ -442,7 +464,7 @@
 									</div>
 								</div>
 								<div class="container">
-									<button class="button_slider slider-next">
+									<button class="button_slider button_empty slider-next">
 										<img src="./assets/btn_next.svg" alt="" />
 									</button>
 								</div>
@@ -488,12 +510,12 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-6">
+				<section id="section-6" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>
+							<h2 class="text_base">
 								Цена на 1С: ЗУП 8 онлайн
-								<span style="color: #ff6600">от 760 ₽ в месяц</span>
+								<span class="text_orange">от 760 ₽ в месяц</span>
 							</h2>
 							<div class="container_forms">
 								<div class="field field_name">
@@ -525,21 +547,28 @@
 								</div>
 							</div>
 							<p class="text_description">* Поля обязательные для заполнения</p>
-							<button class="button_main">
-								<a href="#" class="button__text link"
-									>Попробовать 14 дней бесплатно</a
-								>
-							</button>
+							<div class="block_buy">
+								<button class="button_empty button_main">
+									<a href="#" class="button__text link"
+										>Попробовать 14 дней бесплатно</a
+									>
+								</button>
+								<p class="text_agreement">
+									Начиная работу, я принимаю условия <a class="link_contrast" href="">Оферты</a><br> и соглашаюсь на
+									обработку персональных данных в соответствии с <a class="link_contrast" href="">Политикой
+									конфиденциальности</a>
+								</p>
+							</div>
 						</div>
 					</div>
 				</section>
-				<section id="section-7">
+				<section id="section-7" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>С какими отчетами Вы можете работать?</h2>
-							<div class="section__list section__list_active">
+							<h2 class="text_base">С какими отчетами Вы можете работать?</h2>
+							<div class="wrapper section__list section__list_active">
 								<div class="section__list_max">
-									<ul>
+									<ul class="block_limited list_round-apply">
 										<li>
 											Формирование списков кандидатов на работу, работников
 											компании и ее подразделений;
@@ -566,12 +595,12 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-8">
+				<section id="section-8" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Почему пользователи выбирают Scloud?</h2>
+							<h2 class="text_base">Почему пользователи выбирают Scloud?</h2>
 						</div>
-						<div class="section-wrapper">
+						<div class="wrapper">
 							<div class="section-grid-wrapper">
 								<div class="section__grid">
 									<div class="section__grid_item">
@@ -599,7 +628,7 @@
 										</div>
 									</div>
 								</div>
-								<a href="" class="link_contrast">Узнать больше о нас</a>
+								<a href="" class="link_contrast link_bold">Узнать больше о нас</a>&nbsp<img src="./assets/ic_link.svg">
 							</div>
 							<div class="section__image">
 								<img src="./assets/img_section_8.svg" />
@@ -607,10 +636,10 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-9">
+				<section id="section-9" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Возможно вас заинтересует</h2>
+							<h2 class="text_base">Возможно вас заинтересует</h2>
 							<div class="container_articles">
 								<div class="article">
 									<div class="article__top">
@@ -628,7 +657,7 @@
 										электронном виде.
 									</div>
 									<div class="article__bottom">
-										<a href="" class="link_contrast">Подробнее</a>
+										<a href="" class="link_contrast link_bold">Подробнее</a>&nbsp<img src="./assets/ic_link.svg">
 									</div>
 								</div>
 								<div class="article">
@@ -647,7 +676,7 @@
 										отражению в программе.
 									</div>
 									<div class="article__bottom">
-										<a href="" class="link_contrast">Подробнее</a>
+										<a href="" class="link_contrast link_bold">Подробнее</a>&nbsp<img src="./assets/ic_link.svg">
 									</div>
 								</div>
 								<div class="article">
@@ -663,17 +692,17 @@
 										государственной статистики, Росалкогольрегулирование.
 									</div>
 									<div class="article__bottom">
-										<a href="" class="link_contrast">Подробнее</a>
+										<a href="" class="link_contrast link_bold">Подробнее</a>&nbsp<img src="./assets/ic_link.svg">
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section id="section-10">
+				<section id="section-10" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2>Начните пользоваться 1С прямо сейчас</h2>
+							<h2 class="text_base">Начните пользоваться 1С прямо сейчас</h2>
 							<div class="container_forms">
 								<div class="field field_name">
 									<input
@@ -704,11 +733,18 @@
 								</div>
 							</div>
 							<p class="text_description">* Поля обязательные для заполнения</p>
-							<button class="button_main">
-								<a href="#" class="button__text link"
-									>Попробовать 14 дней бесплатно</a
-								>
-							</button>
+							<div class="block_buy">
+								<button class="button_empty button_main">
+									<a href="#" class="button__text link"
+										>Попробовать 14 дней бесплатно</a
+									>
+								</button>
+								<p class="text_agreement">
+									Начиная работу, я принимаю условия <a class="link_contrast" href="">Оферты</a><br> и соглашаюсь на
+									обработку персональных данных в соответствии с <a class="link_contrast" href="">Политикой
+									конфиденциальности</a>
+								</p>
+							</div>
 						</div>
 					</div>
 				</section>
@@ -729,7 +765,7 @@
 								</ul>
 							</div>
 							<div class="article__bottom">
-								<a href="" class="link_contrast link">Показать больше</a>
+								<a href="" class="link_contrast link_bold link">Показать больше <img src="./assets/ic_open-list.svg"></a>
 							</div>
 						</div>
 						<div class="article article_footer">
@@ -745,7 +781,7 @@
 								</ul>
 							</div>
 							<div class="article__bottom">
-								<a href="" class="link_contrast link">Показать больше</a>
+								<a href="" class="link_contrast link_bold link">Показать больше <img src="./assets/ic_open-list.svg"></a>
 							</div>
 						</div>
 						<div class="article article_footer">
@@ -776,13 +812,13 @@
 								</ul>
 							</div>
 							<div class="article__bottom">
-								<a href="" class="link_contrast link">Показать больше</a>
+								<a href="" class="link_contrast link_bold link">Показать больше <img src="./assets/ic_open-list.svg"></a>
 							</div>
 						</div>
 					</div>
 					<div class="footer-contacts-wrapper">
-						<div class="footer-contacts">
-							<img src="./assets/logo.svg" />
+						<div class="footer-contacts wrapper">
+							<img class="logo" src="./assets/logo.svg" />
 							<div class="footer-contacts__info">
 								<div class="footer-contacts__info__phone">
 									8 800 555-91-15 | +7 (495) 786-59-15
@@ -838,12 +874,13 @@
 						</div>
 					</div>
 				</div>
-				<div class="footer__bottom">
-					<div class="wrapper_main container">
+				<div class="footer__bottom wrapper">
+					<div class="wrapper_main container container_bottom">
 						<div class="footer__bottom__politics">
-							Оферта | Политика конфиденциальности
+							<a class="text_base link_black" href="#">Оферта</a>&nbsp&nbsp|&nbsp
+							<a class="text_base link_black" href="#">Политика конфиденциальности</a>
 						</div>
-						<div class="footer__bottom__copyright">
+						<div class="footer__bottom__copyright link_black">
 							© 2019 scloud.ru ООО "СервисКлауд"
 						</div>
 					</div>
