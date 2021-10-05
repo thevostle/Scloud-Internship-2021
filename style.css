@@ -759,6 +759,10 @@ p.text_description {
 	.container_sections {
 		margin-top: 60px;
 	}
+
+	.table_row_last_small {
+		border: 0;
+	}
 }
 
 @media screen and (max-width: 320px)
