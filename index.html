@@ -10,9 +10,9 @@
 	<body>
 		<div class="main">
 			<header class="header_main">
-				<div class="wrapper_main container">
+				<div class="wrapper_fixed container">
 					<img src="./assets/logo.svg" class="logo" />
-					<ul class="ul_main ul_horizontal">
+					<ul class="ul_main ul_horizontal element_disolve">
 						<li class="li_main">
 							<a href="" class="link">Решения</a>
 							<img src="./assets/arrow.svg" class="header-link-arrow" />
@@ -28,12 +28,14 @@
 						</li>
 						<li class="li_main"><a href="" class="link">Партнерам</a></li>
 					</ul>
-					<button class="button_empty"><img src="./assets/ic_find.svg" class="header-find-icon" /></button>
+					<button class="button_empty element_disolve"><img src="./assets/ic_find.svg" class="header-find-icon" /></button>
 					<span class="phone">8(800) 555-91-15</span>
-					<a href="" class="link"><img src="./assets/ic_signin.svg" class="header-signin-icon" /></a>
-					<button class="button_empty button_main button_signin">
-						<a href="#" class="button__text link">Регистрация</a>
-					</button>
+					<div class="container">
+						<a href="" class="link"><img src="./assets/ic_signin.svg" class="header-signin-icon element_disolve" /></a>
+						<button class="button_empty button_main button_signin button_entry">
+							<a href="#" class="button__text link button__text_entry">Регистрация</a>
+						</button>
+					</div>
 				</div>
 			</header>
 			<div class="container_sections wrapper_main">
@@ -48,14 +50,14 @@
 								других выплат сотрудникам
 							</p>
 						</div>
-						<button class="button_empty button_main">
+						<button class="button_empty button_main button_long ">
 							<a href="#" class="button__text link"
 								>Попробовать 14 дней бесплатно</a
 							>
 						</button>
 						<p class="text_description">*входит в тарифы</p>
 					</div>
-					<div class="section__image">
+					<div class="section__image section__image_dissolve">
 						<img src="./assets/img_section_1.svg" />
 					</div>
 				</section>
@@ -63,7 +65,7 @@
 					<div class="section__info">
 						<div class="section__text">
 							<h2 class="text_base">Основные возможности</h2>
-							<div class="wrapper section__list section__list_active">
+							<div class="wrapper section__list section__list_active section__list_vertical">
 								<div class="section__list_left">
 									<ul class="list_round-apply">
 										<li>Учёт заработной платы</li>
@@ -196,7 +198,7 @@
 								</button>
 							</div>
 							<div class="selector-section">
-								<div class="selector__item section__list section__list_active">
+								<div class="selector__item section__list section__list_active section__list_vertical">
 									<div class="section__list_left">
 										<h3 class="text_title">Руководство компании</h3>
 										<ul class="list_selector list_apply">
@@ -216,7 +218,7 @@
 										</ul>
 									</div>
 								</div>
-								<div class="selector__item section__list">
+								<div class="selector__item section__list section__list_vertical">
 									<div class="section__list_left">
 										<h3 class="text_title">Бухгалтерия</h3>
 										<ul class="list_selector list_apply">
@@ -237,7 +239,7 @@
 										</ul>
 									</div>
 								</div>
-								<div class="selector__item section__list">
+								<div class="selector__item section__list section__list_vertical">
 									<div class="section__list_left">
 										<ul class="list_selector list_apply">
 											<li>Начисленная зарплата</li>
@@ -253,7 +255,7 @@
 										</ul>
 									</div>
 								</div>
-								<div class="selector__item section__list">
+								<div class="selector__item section__list section__list_vertical">
 									<div class="section__list_left">
 										<ul class="list_selector list_apply">
 											<li>Потребность в кадрах</li>
@@ -548,7 +550,7 @@
 							</div>
 							<p class="text_description">* Поля обязательные для заполнения</p>
 							<div class="block_buy">
-								<button class="button_empty button_main">
+								<button class="button_empty button_main button_long ">
 									<a href="#" class="button__text link"
 										>Попробовать 14 дней бесплатно</a
 									>
@@ -562,7 +564,7 @@
 						</div>
 					</div>
 				</section>
-				<section id="section-7" class="section_main">
+				<section id="section-7" class="section_main element_disolve">
 					<div class="section__info">
 						<div class="section__text">
 							<h2 class="text_base">С какими отчетами Вы можете работать?</h2>
@@ -600,7 +602,7 @@
 						<div class="section__text">
 							<h2 class="text_base">Почему пользователи выбирают Scloud?</h2>
 						</div>
-						<div class="wrapper">
+						<div class="wrapper section__list_vertical">
 							<div class="section-grid-wrapper">
 								<div class="section__grid">
 									<div class="section__grid_item">
@@ -628,10 +630,10 @@
 										</div>
 									</div>
 								</div>
-								<a href="" class="link_contrast link_bold">Узнать больше о нас</a>&nbsp<img src="./assets/ic_link.svg">
+								<div class="element_disolve"><a href="" class="link_contrast link_bold">Узнать больше о нас</a>&nbsp<img src="./assets/ic_link.svg"></div>
 							</div>
 							<div class="section__image">
-								<img src="./assets/img_section_8.svg" />
+								<img class="image_small" src="./assets/img_section_8.svg" />
 							</div>
 						</div>
 					</div>
@@ -679,7 +681,7 @@
 										<a href="" class="link_contrast link_bold">Подробнее</a>&nbsp<img src="./assets/ic_link.svg">
 									</div>
 								</div>
-								<div class="article">
+								<div class="article element_disolve">
 									<div class="article__top">
 										<div class="article__top__img">
 											<img src="./assets/img_section_9_3.svg" alt="" />
@@ -734,7 +736,7 @@
 							</div>
 							<p class="text_description">* Поля обязательные для заполнения</p>
 							<div class="block_buy">
-								<button class="button_empty button_main">
+								<button class="button_empty button_main button_long">
 									<a href="#" class="button__text link"
 										>Попробовать 14 дней бесплатно</a
 									>
@@ -756,7 +758,7 @@
 							<div class="article__top">
 								<div class="article__top__title">Типовые решения</div>
 							</div>
-							<div class="article__main">
+							<div class="article__main element_disolve">
 								<ul class="ul_main">
 									<li><a class="link" href="#">1C:Бухгалтерия ПРОФ/КОРП</a></li>
 									<li><a class="link" href="#">1C:Зарплата и управление персоналом ПРОФ/КОРП</a></li>
@@ -764,7 +766,7 @@
 									<li><a class="link" href="#">1C:Управление нашей фирмой</a></li>
 								</ul>
 							</div>
-							<div class="article__bottom">
+							<div class="article__bottom element_disolve">
 								<a href="" class="link_contrast link_bold link">Показать больше <img src="./assets/ic_open-list.svg"></a>
 							</div>
 						</div>
@@ -772,7 +774,7 @@
 							<div class="article__top">
 								<div class="article__top__title">Отраслевые решения</div>
 							</div>
-							<div class="article__main">
+							<div class="article__main element_disolve">
 								<ul class="ul_main">
 									<li><a class="link" href="#">1C:CRM ПРОФ</a></li>
 									<li><a class="link" href="#">1C:Учет в управляющих компаниях ЖКХ, ТСЖ, ЖСК</a></li>
@@ -780,7 +782,7 @@
 									<li><a class="link" href="#">1C:Салон Красоты</a></li>
 								</ul>
 							</div>
-							<div class="article__bottom">
+							<div class="article__bottom element_disolve">
 								<a href="" class="link_contrast link_bold link">Показать больше <img src="./assets/ic_open-list.svg"></a>
 							</div>
 						</div>
@@ -788,7 +790,7 @@
 							<div class="article__top">
 								<div class="article__top__title">Сервисы</div>
 							</div>
-							<div class="article__main">
+							<div class="article__main element_disolve">
 								<ul class="ul_main">
 									<li><a class="link" href="#">1C:Контрагент</a></li>
 									<li><a class="link" href="#">1C:СтартЭДО</a></li>
@@ -802,7 +804,7 @@
 							<div class="article__top">
 								<div class="article__top__title">Доп. возможности</div>
 							</div>
-							<div class="article__main">
+							<div class="article__main element_disolve">
 								<ul class="ul_main">
 									<li><a class="link" href="#">ФГИС Меркурий</a></li>
 									<li><a class="link" href="#">ЕГАИС</a></li>
@@ -811,7 +813,7 @@
 									<li><a class="link" href="#">Торговое оборудование</a></li>
 								</ul>
 							</div>
-							<div class="article__bottom">
+							<div class="article__bottom element_disolve">
 								<a href="" class="link_contrast link_bold link">Показать больше <img src="./assets/ic_open-list.svg"></a>
 							</div>
 						</div>
