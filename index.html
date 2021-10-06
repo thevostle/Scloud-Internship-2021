@@ -29,12 +29,20 @@
 						<li class="li_main"><a href="" class="link">Партнерам</a></li>
 					</ul>
 					<button class="button_empty element_disolve"><img src="./assets/ic_find.svg" class="header-find-icon" /></button>
-					<span class="phone">8(800) 555-91-15</span>
-					<div class="container">
-						<a href="" class="link"><img src="./assets/ic_signin.svg" class="header-signin-icon element_disolve" /></a>
-						<button class="button_empty button_main button_signin button_entry">
-							<a href="#" class="button__text link button__text_entry">Регистрация</a>
-						</button>
+					<div class="vertical_mobile">
+						<span class="phone">8(800) 555-91-15</span>
+						<div class="container">
+							<a href="" class="link"><img src="./assets/ic_signin.svg" class="header-signin-icon element_disolve" /></a>
+							<button class="button_empty button_main button_signin button_entry mobile_small">
+								<a href="#" class="button__text link button__text_entry button__text_in">Вход</a>
+							</button>
+							<button class="button_empty button_main button_signin button_entry">
+								<a href="#" class="button__text link button__text_entry">Регистрация</a>
+							</button>
+						</div>
+					</div>
+					<div class="mobile">
+						<img src="./assets/ic_menu.svg" alt="">
 					</div>
 				</div>
 			</header>
@@ -281,9 +289,10 @@
 				<section id="section-5" class="section_main">
 					<div class="section__info">
 						<div class="section__text">
-							<h2 class="text_base">Сравнение функционала версий ПРОФ и КОРП</h2>
+							<h2 class="text_base element_disolve">Сравнение функционала версий ПРОФ и КОРП</h2>
+							<h2 class="text_base mobile table_disolve_mobile">Отличия функционала версий ПРОФ и КОРП</h2>
 						</div>
-						<div class="table">
+						<div class="table table_disolve_mobile">
 							<div class="table_row head">
 								<div class="table_row_cell text_base text_title">Возможности</div>
 								<div class="table_row_cell text_base text_title">ПРОФ</div>
@@ -441,6 +450,7 @@
 								</div>
 							</div>
 						</div>
+						
 						<div class="slider-container">
 							<div class="wrapper">
 								<div class="container">
@@ -753,7 +763,7 @@
 			</div>
 			<footer>
 				<div class="footer__info wrapper_main">
-					<div class="wrapper_main container">
+					<div class="wrapper_main container wrapper_footer">
 						<div class="article article_footer">
 							<div class="article__top">
 								<div class="article__top__title">Типовые решения</div>
@@ -868,7 +878,7 @@
 									<li class="li_horizontal li_icons">
 										<a href=""><img src="./assets/badge_appstore.svg" /></a>
 									</li>
-									<li class="li_horizontal li_icons">
+									<li class="li_horizontal li_icons element_disolve">
 										<a href=""><img src="./assets/badge_googleplay.svg" /></a>
 									</li>
 								</ul>

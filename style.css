@@ -659,6 +659,25 @@ p.text_description {
 	align-items: center;
 }
 
+.mobile {
+	display: none;
+}
+
+.mobile_small {
+	display: none;
+}
+
+.table_disolve_mobile {
+	display: block;
+}
+
+.vertical_mobile {
+	display: flex;
+	align-items: center;
+	width: 100%;
+    justify-content: space-around;
+}
+
 
 
 @media screen and (max-width: 1366px)
@@ -763,13 +782,52 @@ p.text_description {
 	.table_row_last_small {
 		border: 0;
 	}
+
+	.container_button {
+		overflow-x: scroll;
+    	overflow-y: hidden;
+	}
+
+	.footer-contacts-wrapper {
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.image_small {
+		height: 235px;
+	}
+
+	.article .article__top .article__top__img {
+		margin-right: 0;
+	}
+
+	.article__top__img {
+		display: flex;
+    	justify-content: space-between;
+	}
+
+	.disolve_mobile {
+		display: flex;
+	}
+	
+	.mobile {
+		display: flex;
+	}
 }
 
-@media screen and (max-width: 320px)
+@media screen and (max-width: 640px)
 {
+	.section__info>.section__list_3x2 {
+		grid-template-columns: repeat(1, 1fr);
+		justify-items: center;
+	}
+}
+
+@media screen and (max-width: 400px){
 	.wrapper_main,
 	.container_bottom {
 		max-width: 288px;
+		justify-content: center;
 	}
 
 	.wrapper_fixed {
@@ -780,17 +838,61 @@ p.text_description {
 		width: 288px;
 	}
 
+	.section__grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.section__grid_item {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.section__grid_item_info {
+		text-align: center;
+	}
+
 	.container_articles {
 		flex-direction: column;
 	}
 
-	.section_main {
-		margin-bottom: 60px;
+	.wrapper_footer {
+		display: flex;
+		flex-direction: column;
 	}
 
-	.section__grid {
-		grid-template-columns: repeat(1, 1fr);
-		justify-items: center;
+	.article_footer {
+		height: 0;
+	}
+
+	.footer-contacts-wrapper {
+		margin-top: 25px;
+	}
+
+	.vertical_mobile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.selector-section {
+		height: 555px;
+	}
+
+	.table_disolve_mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px)
+{
+	.footer__bottom__politics {
+		display: none;
+	}
+
+	.section_main {
+		margin-bottom: 60px;
 	}
 
 	.section__image {
@@ -798,7 +900,7 @@ p.text_description {
 	}
 
 	.image_small {
-		height: 210px;
+		height: 185px;
 	}
 
 	.block_buy {
@@ -851,16 +953,7 @@ p.text_description {
 		height: 490px;
 	}
 
-	.section__grid_item {
-		display: flex;
-		width: 100%;
-		flex-direction: column;
-		align-items: center;
-	}
 
-	.section__grid_item_info {
-		text-align: center;
-	}
 
 	.container_sections {
 		margin-top: 30px;
@@ -879,5 +972,13 @@ p.text_description {
 		padding: 0;
 		color: #FF6600;
 	}
-	
+
+	.mobile_small {
+		display: flex;
+	}
+
+	.button__text_in {
+		margin-right: 2px;
+	}
+
 }
