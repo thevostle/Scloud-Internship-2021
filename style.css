@@ -853,25 +853,42 @@ p.text_description {
 
 @media screen and (max-width: 640px)
 {
+	.wrapper_main,
+	.container_bottom {
+		max-width: 400px;
+	}
+
+	.wrapper_fixed {
+		width: 400px;
+	}
+
+	.container_bottom {
+		width: 400px;
+	}
+
 	.section__info>.section__list_3x2 {
 		grid-template-columns: repeat(1, 1fr);
 		justify-items: center;
+	}
+
+	.button_signin {
+		margin-left: 0;
 	}
 }
 
 @media screen and (max-width: 400px){
 	.wrapper_main,
 	.container_bottom {
-		max-width: 288px;
+		max-width: 320px;
 		justify-content: center;
 	}
 
 	.wrapper_fixed {
-		width: 288px;
+		width: 320px;
 	}
 
 	.container_bottom {
-		width: 288px;
+		width: 320px;
 	}
 
 	.section__grid {
@@ -957,6 +974,7 @@ p.text_description {
 	.footer__links__apps,
 	.footer-links__websites {
 		margin-top: 32px;
+		margin-right: 0;
 	}
 
 	.footer-contacts__info__phone {
@@ -978,10 +996,33 @@ p.text_description {
 	.element_disolve_small {
 		display: none;
 	}
+
+	.footer__bottom__politics {
+		display: none;
+	}
+
+	.button__text_in {
+		color: #333333;
+		margin-right: 2px;
+	}
 }
 
 @media screen and (max-width: 320px)
 {
+	.wrapper_main,
+	.container_bottom {
+		max-width: 288px;
+		justify-content: center;
+	}
+
+	.wrapper_fixed {
+		width: 288px;
+	}
+
+	.container_bottom {
+		width: 288px;
+	}
+
 	.footer__bottom__politics {
 		display: none;
 	}
@@ -1048,16 +1089,7 @@ p.text_description {
 		height: 490px;
 	}
 
-
-
 	.container_sections {
 		margin-top: 30px;
 	}
-
-
-	.button__text_in {
-		color: #333333;
-		margin-right: 2px;
-	}
-
 }
