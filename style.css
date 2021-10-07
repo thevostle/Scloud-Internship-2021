@@ -197,7 +197,6 @@ html, body {
 .container_forms .field ul li {
 	display: flex;
 	align-items: center;
-	margin-left: 18px;
 
 	font-family: PT Sans;
 	font-style: normal;
@@ -1004,6 +1003,10 @@ p.text_description {
 	.button__text_in {
 		color: #333333;
 		margin-right: 2px;
+	}
+
+	.disolve_mobile {
+		display: none;
 	}
 }
 
